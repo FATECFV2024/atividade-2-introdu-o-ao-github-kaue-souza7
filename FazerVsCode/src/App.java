@@ -3,27 +3,19 @@ import java.util.Scanner;
 public class App {
         //Comentário
 
-    public static void funcao_teste (){
-        //Biblioteca para entrada de dados
-        Scanner ler = new Scanner(System.in);
+        public static void main(String[] args) {
+            
+            k2920482411029 kra = new k2920482411029();
+            System.out.println("nomeCompleto: " + kra.nomeCompleto);
+            System.out.println("rgm: " + kra.rgm);
+            System.out.println("idade: " + kra.idade);
+            System.out.println("github: " + kra.github);
+            System.out.println("linkedin: " + kra.linkedin);
+            System.out.println("curso: " + kra.curso);
+            System.out.println("turma: " + kra.turma);
 
-        //variável local 
-        String v2;
-        int v1;
 
-        System.out.println("Comando de Saida de Dados");
-        
-        System.out.printf("Informe uma palavra: ");
-        v2 = ler.next();
-
-        System.out.printf("Informe um número: ");
-        v1 = ler.nextInt();
-
-        System.out.printf(v2+" "+v1);
-    }
-    public static void main(String[] args) throws Exception {
-        funcao_teste();
-
+        }
 
     }
-}
+
